@@ -8,7 +8,7 @@ public class DateTest extends TestCase {
  public void testadddays()
  {
 	 Date d = new Date(4,3,1995);
-	 Date d1= d.adddays(64);
+	 Date d1= d.adddays(64); 
 	 assertEquals(6,d1.getDay());
 	 assertEquals(5,d1.getMonth());
 	 assertEquals(1995,d1.getYear());
